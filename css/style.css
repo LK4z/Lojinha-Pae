@@ -11,7 +11,6 @@
 ul {
     list-style: none;
     display: flex;
-    margin: 0 !important;
 }
 
 a {
@@ -30,7 +29,7 @@ header {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
 }
 
 header ul {
@@ -41,11 +40,24 @@ header ul li {
     margin: 10px;
 }
 
+header ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.barra-pesquisa {
+    width: 350px;
+    height: 40px;
+}
+
 
 .categorias {
     padding: 10px;
-    background-color: #181818;
-    color: orangered;
+    background-color: #d8d8d8;
+    color: rgb(37, 37, 37);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,14 +66,12 @@ header ul li {
 }
 
 .categorias li {
-
+    margin-right: 10px;
+    margin-left: 10px;
     text-transform: uppercase;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
-    border-right: 1px solid #5a5a5a;
-    padding: 0 20px;
-    cursor: pointer;
 }
 
