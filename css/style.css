@@ -21,6 +21,7 @@ a {
 body {
     font-family: 'Roboto';
 }
+
 /*fim do reset*/
 
 header {
@@ -33,7 +34,7 @@ header {
 
 header ul {
     display: flex;
-} 
+}
 
 header ul li {
     margin: 10px;
@@ -41,20 +42,25 @@ header ul li {
 
 
 .categorias {
+    padding: 10px;
     background-color: #181818;
     color: orangered;
     display: flex;
     align-items: center;
-    justify-content: center;  
-    border: solid 2px;
+    justify-content: center;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
 }
 
 .categorias li {
-    margin-right: 10px;
-    margin-left: 10px;
+
     text-transform: uppercase;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
+    border-right: 1px solid #5a5a5a;
+    padding: 0 20px;
+    cursor: pointer;
 }
+
