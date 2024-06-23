@@ -19,13 +19,19 @@
 
 <body>
     <header>
-        <h1>STORE LOGO</h1>
-        <input type="text" placeholder="Digite Aqui" class="barra-pesquisa">
-        <ul>
-            <li><a href="#"> <i class="fa-solid fa-circle-question"></i>Ajuda</a></li>
-            <li><a href="#"><i class="fa-solid fa-user"></i> Cadastro/Login</a></li>
-            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Carrinho</a></li>
-        </ul>
+        <div class="header2">
+            <h1>STORE LOGO</h1>
+            <div class="searc">
+                <input type="text" placeholder="Digite Aqui" class="barra-pesquisa">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <ul>
+                <li><a href="#"> <i class="fa-solid fa-circle-question"></i>Ajuda</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i> Cadastro/Login</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Carrinho</a></li>
+            </ul>
+        </div>
+
     </header>
 
     <ul class="categorias">
@@ -82,19 +88,27 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
-    <div class="compre-por-tamanho">
-        compre por <span>tamanho</span>
-        <select name="" id=""><option value="masculino">MASCULINO</option> <option value="Feminino">FEMININO</option> <option value="Infantil">INFANTIL</option></select>
-
-        <div><a href="#">PP</a></div>
-        <div><a href="#">P</a></div>
-        <div><a href="#">M</a></div>
-        <div><a href="#">G</a></div>
-        <div><a href="#">GG</a></div>
-        <div><a href="#">XG</a></div>
-    </div>
-
+    <!-- embaixo do carrosel -->
+    <section class="xd">
+        <div class="cardlist">
+            <div class="cardo">
+                <i class="fa-solid fa-truck"></i>
+                <h3><a href="#"><span>FRETE GRÁTIS BRASIL</span> NAS COMPRAS ACIMA DE R$199,90</a></h3>
+            </div>
+            <div class="cardo">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>TODO O SITE EM ATÉ <span>10X SEM JUROS</span> PARCELA MÍNIMA DE R$20,00*</h3>
+            </div>
+            <div class="cardo">
+                <i class="fa-solid fa-power-off"></i>
+                <h3><a href="#"><span>1ª TROCA GRÁTIS</span>, COMPRE NO E-COMMERCE E TROQUE NAS LOJAS FÍSICAS</a></h3>
+            </div>
+            <div class="cardo">
+                <i class="fa-solid fa-barcode"></i>
+                <h3><span>5% DE DESCONTO</span>À VISTA NO <span>BOLETO BANCÁRIO OU PIX</span></h3>
+            </div>
+        </div>
+    </section>
 
     <!-- BOOTSTRAP E FONT-AWESOME -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
