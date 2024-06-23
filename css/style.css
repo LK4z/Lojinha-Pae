@@ -74,4 +74,36 @@ header ul li a {
     font-weight: 400;
     letter-spacing: 0px;
 }
+.xd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a5a5a;
+    padding: 15px 0
+}
+.cardlist{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 35px;
+}
+.cardlist h3{
+    font-size: 14px;
+    margin: 0;
+}
+.cardo{
+    display: flex;
+    width: 300px;
+}
 
+svg{
+    margin: 0 15px;
+}
+.cardlist span{
+    color: #272727;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
